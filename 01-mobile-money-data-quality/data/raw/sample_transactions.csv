@@ -1,16 +1,17 @@
 transaction_id,date,channel,amount_ghs,status,agent_area
-T001,2026-10-01,Mobile Money,250,Successful,Madina
-T002,2026-10-01,Bank Transfer,1200,Successful,East Legon
-T003,2026-10-01,Mobile Money,75,Failed,Madina
-T004,2026-10-02,Card,450,Successful,Osu
-T005,2026-10-02,Mobile Money,0,Successful,Madina
-T006,2026-10-02,Bank Transfer,800,Pending,East Legon
-T007,2026-10-03,Card,320,Successful,Osu
-T008,2026-10-03,Mobile Money,150,Successful,Madina
+T001,2026-10-01,Mobile Money,250.0,Successful,Madina
+T002,2026-10-01,Bank Transfer,1200.0,Successful,East Legon
+T003,2026-10-01,Mobile Money,75.0,FAILED,Madina
+T004,2026-10-02,Card,450.0,Successful,Osu
+T005,2026-10-02,Mobile Money,0.0,Successful,Madina
+T006,2026-10-02,Bank Transfer,800.0,Pending,East Legon
+T007,2026-10-03,Card,320.0,Successful,Osu
+T008,2026-10-03,Mobile Money,150.0,successful,Madina
+T008,2026-10-03,Mobile Money,150.0,successful,Madina
 T009,2026-10-03,Bank Transfer,,Successful,East Legon
-T010,2026-10-04,Mobile Money,90,Failed,Madina
-T011,2026-10-04,Card,600,Successful,Osu
-T012,2026-10-04,Bank Transfer,500,Successful,East Legon
-T013,2026-10-05,Mobile Money,200,Successful,Madina
-T014,2026-10-05,Card,150,Successful,Osu
-T015,2026-10-05,Mobile Money,300,Successful,Madina
+T010,2026-10-04,Mobile Money,90.0,Failed,Madina
+T011,2026-10-04,Card,600.0,Successful,Osu
+T012,2026-10-04,Bank Transfer,500.0,Successful,East Legon
+T013,2026-10-05,Mobile Money,200.0,Successful,Madina
+T014,2026-10-05,Card,150.0,Successful,Osu
+T015,2026-10-05,Mobile Money,300.0, successful ,Madina
