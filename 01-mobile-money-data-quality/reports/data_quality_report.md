@@ -59,7 +59,44 @@ Poor transaction data quality can affect:
 
 A successful transaction status should not automatically be interpreted as proof of a valid monetary transaction.
 
-## 6. Recommendations
+## 6. Transaction Performance Analysis
+
+Following data cleaning and validation, successful transactions with positive monetary amounts were selected for financial analysis.
+
+A total of 10 valid successful transactions were identified, representing a combined transaction value of GH₵4,120.
+
+### Performance by Payment Channel
+
+| Payment Channel | Transaction Count | Total Value (GH₵) | Average Value (GH₵) |
+|---|---:|---:|---:|
+| Bank Transfer | 2 | 1,700 | 850 |
+| Card | 4 | 1,520 | 380 |
+| Mobile Money | 4 | 900 | 225 |
+| **Overall** | **10** | **4,120** | **412** |
+
+The analysis shows differences in transaction volume and monetary value across the three payment channels.
+
+## 7. Key Business Insights
+
+1. **Bank Transfer recorded the highest total transaction value.** It generated GH₵1,700 from only two successful transactions, giving it the highest average transaction value of GH₵850.
+
+2. **Card and Mobile Money recorded the highest transaction volumes.** Each channel had four valid successful transactions.
+
+3. **Card generated more transaction value than Mobile Money.** Despite having the same transaction count, Card generated GH₵1,520 compared with Mobile Money's GH₵900.
+
+4. **Mobile Money recorded the lowest average transaction value.** Its average was GH₵225, compared with GH₵380 for Card and GH₵850 for Bank Transfer.
+
+## 8. Business Recommendations
+
+1. Investigate why Mobile Money has a lower average transaction value than Card, despite both channels recording the same number of valid successful transactions.
+
+2. Examine whether Bank Transfer attracts higher-value transactions or customers, given its higher average transaction value.
+
+3. Monitor both transaction volume and total transaction value when evaluating payment channel performance.
+
+4. Maintain data validation controls to ensure missing amounts, zero-value transactions, and duplicate records are investigated before financial reporting.
+
+## 9. Data Quality Recommendations
 
 1. Investigate successful transactions with missing amounts.
 2. Verify zero-value transactions against transaction records.
@@ -67,13 +104,13 @@ A successful transaction status should not automatically be interpreted as proof
 4. Standardise transaction status labels.
 5. Establish data validation rules before financial analysis.
 
-## 7. Limitations
+## 10. Limitations
 
 The dataset is synthetic and contains only 16 original records.
 
 The findings demonstrate data quality assessment techniques and should not be interpreted as evidence of actual mobile money industry performance.
 
-## 8. Conclusion
+## 11. Conclusion
 
 The exercise demonstrates the importance of validating transaction data before conducting financial analysis.
 
