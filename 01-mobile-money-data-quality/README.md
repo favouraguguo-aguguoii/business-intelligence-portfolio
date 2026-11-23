@@ -6,6 +6,38 @@ This project examines the quality and reliability of a sample mobile money trans
 
 The objective is to demonstrate how a data analyst identifies inconsistencies, cleans transaction records, validates financial data, and extracts meaningful business insights.
 
+### How to Run the Project
+
+1. Download or clone this repository.
+2. Open `mobile_money_data_quality.ipynb` in Google Colab.
+3. Download `sample_transactions.csv` from `data/raw/`.
+4. Run the notebook using **Runtime → Run all**.
+5. When prompted, upload the downloaded `sample_transactions.csv` file.
+6. Allow the notebook to execute all analysis and visualizations.
+
+### Requirements
+
+- Python
+- pandas
+- Matplotlib
+- Google Colab or Jupyter Notebook
+
+### Project Structure
+
+```text
+01-mobile-money-data-quality/
+├── README.md
+├── notebooks/
+│   ├── mobile_money_data_quality.ipynb
+│   └── mobile_money_data_quality_old.ipynb
+├── data/
+│   ├── raw/
+│   │   └── sample_transactions.csv
+│   └── processed/
+│       └── cleaned_transactions.csv
+└── reports/
+    └── data_quality_report.md
+
 ## 2. Business Problem
 
 Transaction datasets may contain duplicate records, missing values, inconsistent labels, and invalid transaction amounts.
@@ -57,6 +89,15 @@ Transaction statuses after standardisation:
 - Failed: 2
 - Pending: 1
 
+### Key Findings
+
+- 16 original records were reduced to 15 after removing an exact duplicate.
+- 1 missing transaction amount and 1 zero-value transaction were identified.
+- 10 valid successful transactions were analysed.
+- Total successful transaction value: GH₵4,120.
+- Average successful transaction value: GH₵412.
+- Bank Transfer recorded the highest total transaction value at GH₵1,700.
+
 ## 7. Analysis Approach
 
 The analysis follows a structured workflow:
@@ -82,6 +123,12 @@ This distinction is important when calculating transaction volumes and monetary 
 The dataset is synthetic and contains only 16 original records.
 
 Consequently, the findings demonstrate analytical methods rather than actual mobile money market performance.
+
+### Analytical Limitations
+
+- The dataset is synthetic and contains only 16 original records.
+- The findings demonstrate an analytical workflow but do not represent actual customer behavior.
+- A larger real-world dataset would be needed to establish reliable business trends.
 
 ## 10. Project Status
 
