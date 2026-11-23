@@ -132,10 +132,17 @@ Consequently, the findings demonstrate analytical methods rather than actual mob
 
 ## 10. Project Status
 
-Data inspection, cleaning, data quality assessment, transaction validation, and channel performance analysis have been completed.
+The project demonstrates a structured approach to data quality assessment, financial data validation, exploratory data analysis, visualization, and business intelligence.
 
-Three visualisations were created to examine successful transaction value, average transaction value, and transaction volume across payment channels.
+The analysis includes:
 
-Business insights and practical recommendations were developed based on the analysis.
+- Data inspection and cleaning.
+- Identification and removal of duplicate records.
+- Standardization of transaction status labels.
+- Assessment of missing and zero-value transaction amounts.
+- Validation of successful transactions.
+- Payment channel performance analysis.
+- Data visualization and interpretation.
+- Business insights and recommendations.
 
-The project demonstrates a structured approach to data quality assessment, financial data validation, exploratory data analysis, visualisation, and business intelligence.
+The project is documented in a Jupyter Notebook, supported by a sample dataset, processed data, and a data quality report.
